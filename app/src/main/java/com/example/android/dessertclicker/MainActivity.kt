@@ -27,6 +27,7 @@ import androidx.core.app.ShareCompat
 import androidx.databinding.DataBindingUtil
 import com.example.android.dessertclicker.databinding.ActivityMainBinding
 
+const val TAG = "MainActivity"
 class MainActivity : AppCompatActivity() {
 
     private var revenue = 0
@@ -43,6 +44,36 @@ class MainActivity : AppCompatActivity() {
      * the dessert starts to be produced.
      */
     data class Dessert(val imageId: Int, val price: Int, val startProductionAmount: Int)
+
+    override fun onStart() {
+        super.onStart()
+        Log.d(TAG, "onStart Called")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.d(TAG, "onResume Called")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.d(TAG, "onPause Called" )
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.d(TAG, "onStop Called")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d(TAG, "onDestroy Called")
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        Log.d(TAG,"onRestart Called")
+    }
 
     // Create a list of all desserts, in order of when they start being produced
     private val allDesserts = listOf(
