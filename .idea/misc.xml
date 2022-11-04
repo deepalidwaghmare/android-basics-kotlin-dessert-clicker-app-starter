@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_dice_roller.xml" value="0.22395833333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23777173913043478" />
+        <entry key="app/src/main/res/layout/dice_roller.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/happy_birthday_message.xml" value="0.23777173913043478" />
       </map>
     </option>

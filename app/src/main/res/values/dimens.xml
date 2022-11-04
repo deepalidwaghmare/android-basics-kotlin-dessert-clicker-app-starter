@@ -21,4 +21,5 @@
     <dimen name="medium_text_size">20sp</dimen>
     <dimen name="large_text_size">33sp</dimen>
     <dimen name="corner_radius">4dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 </resources>
