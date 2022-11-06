@@ -4,7 +4,7 @@
             "outputFile": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/deepali/.gradle/caches/transforms-3/b64c581a9daa138f08ffadfeafcf90fd/transformed/material-1.4.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/deepali/.gradle/caches/transforms-3/50a63e0029c6b24bdae2805e0d5d26db/transformed/material-1.4.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/deepali/.gradle/caches/transforms-3/a41f65a1b182ec9e11a9bbe3d48996cb/transformed/appcompat-1.3.1/res/values-v23/values-v23.xml",
+                    "source": "/Users/deepali/.gradle/caches/transforms-3/629b1699e0e4efa803da513aa760ff02/transformed/appcompat-1.3.1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -34,7 +34,7 @@
                     }
                 },
                 {
-                    "source": "/Users/deepali/.gradle/caches/transforms-3/06758e689f0bced597b4e1b1801419a2/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/deepali/.gradle/caches/transforms-3/f9dbcc3c4850af66b148436b1fd7c9e5/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -102,6 +102,10 @@ class MainActivity : AppCompatActivity() {
         binding.dessertButton.setOnClickListener {
             onDessertClicked()
         }
+        binding.dessertSoldText.setOnClickListener{
+
+        }
+
 
         // Set the TextViews to the right values
         binding.revenue = revenue

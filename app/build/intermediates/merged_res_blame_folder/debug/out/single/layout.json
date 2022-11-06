@@ -1,6 +1,14 @@
 [
     {
+        "merged": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_dice_roller.xml",
+        "source": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/src/main/res/layout/activity_dice_roller.xml"
+    },
+    {
         "merged": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
         "source": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/happy_birthday_message.xml",
+        "source": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/src/main/res/layout/happy_birthday_message.xml"
     }
 ]

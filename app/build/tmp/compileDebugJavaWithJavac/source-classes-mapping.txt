@@ -8,8 +8,12 @@ com/example/android/dessertclicker/BuildConfig.java
  com.example.android.dessertclicker.BuildConfig
 com/example/android/dessertclicker/BR.java
  com.example.android.dessertclicker.BR
+com/example/android/dessertclicker/databinding/HappyBirthdayMessageBinding.java
+ com.example.android.dessertclicker.databinding.HappyBirthdayMessageBinding
 androidx/databinding/DataBinderMapperImpl.java
  androidx.databinding.DataBinderMapperImpl
+com/example/android/dessertclicker/databinding/ActivityDiceRollerBinding.java
+ com.example.android.dessertclicker.databinding.ActivityDiceRollerBinding
 com/example/android/dessertclicker/DataBindingTriggerClass.java
  com.example.android.dessertclicker.DataBindingTriggerClass
 androidx/databinding/library/baseAdapters/BR.java

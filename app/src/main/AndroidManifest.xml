@@ -9,16 +9,11 @@
         android:roundIcon="@mipmap/ic_dessert_clicker_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".DiceRoller1"
-            android:exported="false"
-            android:label="@string/title_activity_dice_roller1"
-            android:theme="@style/AppTheme.NoActionBar" />
+<!--        <activity-->
+<!--            android:name=".DiceRoller"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".DiceRoller"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
