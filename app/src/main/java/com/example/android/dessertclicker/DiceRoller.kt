@@ -33,7 +33,8 @@ class DiceRoller: AppCompatActivity(){
             val toast = Toast.makeText(this, "You Win!", Toast.LENGTH_SHORT)
             toast.show()
         }else{
-            println("Try Again")
+            val toast = Toast.makeText(this, "Nice Try!", Toast.LENGTH_SHORT)
+            toast.show()
         }
         val diceImage:ImageView = findViewById(R.id.imageView)
         diceImage.setImageResource(R.drawable.dice_1)
