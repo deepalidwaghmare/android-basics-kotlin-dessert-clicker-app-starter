@@ -50,5 +50,8 @@ class DiceRoller: AppCompatActivity(){
         }
         //Updating the ImageView with correct Drawable
         diceImage.setImageResource(drawableResource)
+
+        // Update the content description
+        diceImage.contentDescription = diceRoll.toString()
     }
 }
