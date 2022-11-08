@@ -14,9 +14,6 @@ class DiceRoller: AppCompatActivity(){
         val rollButton: Button = findViewById(R.id.button1)
         rollButton.setOnClickListener {
             rollDice()
-
-//            val toast = Toast.makeText(this, "Dice Rolled!", Toast.LENGTH_SHORT)
-//            toast.show()
         }
     }
     class Dice(val numSides:Int){
@@ -26,7 +23,8 @@ class DiceRoller: AppCompatActivity(){
     }
 
     private fun rollDice() {
-        val dice = Dice(12)
+        //Create Dice Object with 6 sided
+        val dice = Dice(6)
         val diceRoll = dice.roll()
         val luckyNumber = 6
         if(luckyNumber == diceRoll){
@@ -36,16 +34,21 @@ class DiceRoller: AppCompatActivity(){
             val toast = Toast.makeText(this, "Nice Try!", Toast.LENGTH_SHORT)
             toast.show()
         }
+
+        //Find ImageView in Layout
         val diceImage:ImageView = findViewById(R.id.imageView)
         diceImage.setImageResource(R.drawable.dice_1)
-        when(diceRoll){
-            1->diceImage.setImageResource(R.drawable.dice_1)
-            2->diceImage.setImageResource(R.drawable.dice_2)
-            3->diceImage.setImageResource(R.drawable.dice_3)
-            4->diceImage.setImageResource(R.drawable.dice_4)
-            5->diceImage.setImageResource(R.drawable.dice_5)
-            6->diceImage.setImageResource(R.drawable.dice_6)
+        //Determine which Drawable resource id is used based on diceRoll()
+        val drawableResource = when(diceRoll){
+            1->R.drawable.dice_1
+            2->R.drawable.dice_2
+            3->R.drawable.dice_3
+            4->R.drawable.dice_4
+            5->R.drawable.dice_5
+            6->R.drawable.dice_6
+            else ->R.drawable.dice_6
         }
-        //resultTextView.text=diceRoll.toString()
+        //Updating the ImageView with correct Drawable
+        diceImage.setImageResource(drawableResource)
     }
 }
