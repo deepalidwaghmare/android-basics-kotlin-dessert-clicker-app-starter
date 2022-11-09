@@ -28,7 +28,7 @@ class DiceRoller: AppCompatActivity(){
         val diceRoll2 = dice.roll()
 
         //Find Dice1 ImageView in Layout
-        val diceImage:ImageView = findViewById(R.id.imageView)
+        val diceImage = findViewById<ImageView>(R.id.imageView)
         diceImage.setImageResource(R.drawable.dice_2)
 
         //Find Dice2 ImageView in Layout
@@ -59,15 +59,15 @@ class DiceRoller: AppCompatActivity(){
         }
 
         //Updating the Dice1 ImageView with correct Drawable
-        //diceImage.setImageResource(drawableResource)
+        diceImage.setImageResource(drawableResource)
 
         //Updating the Dice 2 ImageView with correct Drawable
-        //diceImageSecond.setImageResource(drawableResource2)
+        diceImageSecond.setImageResource(drawableResource2)
 
         // Update the content description for Dice1
         diceImage.contentDescription = diceRoll.toString()
 
         //Update Content description for Dice2
-       // diceImageSecond.contentDescription = diceRoll.toString()
+        diceImageSecond.contentDescription = diceRoll.toString()
     }
 }
