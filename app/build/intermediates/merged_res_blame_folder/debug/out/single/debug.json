@@ -4,12 +4,12 @@
         "source": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/src/main/res/drawable/dice_2.png"
     },
     {
-        "merged": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/build/intermediates/merged_res/debug/drawable_cupcake.xml.flat",

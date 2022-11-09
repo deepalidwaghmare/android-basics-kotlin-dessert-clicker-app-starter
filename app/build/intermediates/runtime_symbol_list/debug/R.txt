@@ -2103,6 +2103,7 @@ int id ignore 0x7f0800da
 int id ignoreRequest 0x7f0800db
 int id image 0x7f0800dc
 int id imageView 0x7f0800dd
+int id imageView2 0x7f0801e9
 int id imageViewCake 0x7f0801e8
 int id immediateStop 0x7f0800de
 int id included 0x7f0800df
@@ -2646,6 +2647,7 @@ int string path_password_strike_through 0x7f10006f
 int string previous 0x7f100070
 int string rollDice 0x7f100079
 int string rollDiceImage 0x7f10007a
+int string rollDiceImage2 0x7f10007b
 int string search_menu_title 0x7f100071
 int string second_fragment_label 0x7f100072
 int string share 0x7f100073

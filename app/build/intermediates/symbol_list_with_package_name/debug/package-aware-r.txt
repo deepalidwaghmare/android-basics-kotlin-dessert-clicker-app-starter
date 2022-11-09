@@ -2104,6 +2104,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id imageViewCake
 id immediateStop
 id included
@@ -2647,6 +2648,7 @@ string path_password_strike_through
 string previous
 string rollDice
 string rollDiceImage
+string rollDiceImage2
 string search_menu_title
 string second_fragment_label
 string share
