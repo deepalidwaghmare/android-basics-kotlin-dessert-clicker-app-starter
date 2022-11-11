@@ -3,6 +3,7 @@ package com.example.android.dessertclicker
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class DiceRoller: AppCompatActivity(){
@@ -13,6 +14,7 @@ class DiceRoller: AppCompatActivity(){
         val rollButton: Button = findViewById(R.id.button1)
         rollButton.setOnClickListener {
             rollDice()
+            Toast.makeText(applicationContext,"lets Roll",Toast.LENGTH_SHORT).show()
         }
     }
     class Dice(private val numSides:Int){
