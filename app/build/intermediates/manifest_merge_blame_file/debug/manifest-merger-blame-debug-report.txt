@@ -15,7 +15,7 @@
 12        android:allowBackup="true"
 12-->/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.5.0] /Users/deepali/.gradle/caches/transforms-3/b1980c8a632d11b544f2650d4c90a286/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.5.0] /Users/deepali/.gradle/caches/transforms-3/dcaa20791742ce8084ff8e4651d9270f/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_dessert_clicker"
 15-->/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/src/main/AndroidManifest.xml:7:9-50
@@ -51,15 +51,15 @@
 33        </activity>
 34
 35        <provider
-35-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/deepali/.gradle/caches/transforms-3/c31ddd1cd50b40830b6caeaf6bec4fdc/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+35-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/deepali/.gradle/caches/transforms-3/d4cfd60d4eddf50cfd264bdf9287f4ed/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
 36            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-36-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/deepali/.gradle/caches/transforms-3/c31ddd1cd50b40830b6caeaf6bec4fdc/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+36-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/deepali/.gradle/caches/transforms-3/d4cfd60d4eddf50cfd264bdf9287f4ed/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
 37            android:authorities="com.example.android.dessertclicker.lifecycle-process"
-37-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/deepali/.gradle/caches/transforms-3/c31ddd1cd50b40830b6caeaf6bec4fdc/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+37-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/deepali/.gradle/caches/transforms-3/d4cfd60d4eddf50cfd264bdf9287f4ed/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
 38            android:exported="false"
-38-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/deepali/.gradle/caches/transforms-3/c31ddd1cd50b40830b6caeaf6bec4fdc/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+38-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/deepali/.gradle/caches/transforms-3/d4cfd60d4eddf50cfd264bdf9287f4ed/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
 39            android:multiprocess="true" />
-39-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/deepali/.gradle/caches/transforms-3/c31ddd1cd50b40830b6caeaf6bec4fdc/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+39-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/deepali/.gradle/caches/transforms-3/d4cfd60d4eddf50cfd264bdf9287f4ed/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
 40    </application>
 41
 42</manifest>

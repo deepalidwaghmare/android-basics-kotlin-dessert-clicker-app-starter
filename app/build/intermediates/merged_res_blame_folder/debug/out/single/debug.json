@@ -88,12 +88,12 @@
         "source": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/build/intermediates/merged_res/debug/layout_activity_dice_roller.xml.flat",
-        "source": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/src/main/res/layout/activity_dice_roller.xml"
-    },
-    {
         "merged": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/build/intermediates/merged_res/debug/drawable_dice_3.png.flat",
         "source": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/src/main/res/drawable/dice_3.png"
+    },
+    {
+        "merged": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/build/intermediates/merged_res/debug/layout_activity_dice_roller.xml.flat",
+        "source": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/src/main/res/layout/activity_dice_roller.xml"
     },
     {
         "merged": "/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
