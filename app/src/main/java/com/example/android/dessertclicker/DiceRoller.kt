@@ -1,6 +1,7 @@
 package com.example.android.dessertclicker
 
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.Toast
@@ -9,6 +10,8 @@ import androidx.appcompat.app.AppCompatActivity
 class DiceRoller: AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        logging()
+        division()
         setContentView(R.layout.activity_dice_roller)
         rollDice()
         val rollButton: Button = findViewById(R.id.button1)
@@ -22,6 +25,20 @@ class DiceRoller: AppCompatActivity(){
             return (1..numSides).random()
         }
     }
+
+    fun logging() {
+        Log.v(TAG, "Hello, world!")
+    }
+
+    fun division() {
+        val numerator = 60
+        var denominator = 4
+        repeat(4) {
+            Log.v(TAG, "${numerator / denominator}")
+            denominator--
+        }
+    }
+
 
     private fun rollDice() {
         //Create Dice Object with 6 sided
