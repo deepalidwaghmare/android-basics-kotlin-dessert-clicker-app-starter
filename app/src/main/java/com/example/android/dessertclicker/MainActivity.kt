@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onRestart() {
         super.onRestart()
-        Log.d(TAG,"onRestart Called")
+        Log.d(TAG,"onRestart Called!")
     }
 
     // Create a list of all desserts, in order of when they start being produced
