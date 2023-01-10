@@ -1,0 +1,4 @@
+#Sun Nov 13 19:26:08 GMT 2022
+base.0=/Users/deepali/Downloads/android-basics-kotlin-dessert-clicker-app-starter/app/build/intermediates/dex/debugAndroidTest/mergeDexDebugAndroidTest/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

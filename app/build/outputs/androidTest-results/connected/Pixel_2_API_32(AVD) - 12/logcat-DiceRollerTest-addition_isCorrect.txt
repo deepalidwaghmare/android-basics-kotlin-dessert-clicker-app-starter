@@ -1,0 +1,104 @@
+01-09 19:14:09.249  8776  8797 I TestRunner: started: addition_isCorrect(DiceRollerTest)
+01-09 19:14:09.253  8776  8797 W ActivityTestRule: getActivityIntent() returned null using default: Intent(Intent.ACTION_MAIN)
+01-09 19:14:09.279   553   716 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.280   553   716 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.280   553   716 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.280   553   716 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.280   553   716 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.280   553   716 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.280   553   716 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.280   553   716 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.281   553   716 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.281   553   716 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.284   553   716 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.284   553   716 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.284   553   716 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.284   553   716 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.284   553   716 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.284   553   716 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.284   553   716 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.284   553   716 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.284   553   716 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.284   553   716 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.331   357   388 D goldfish-address-space: claimShared: Ask to claim region [0x1f6f88000 0x1f7774000]
+01-09 19:14:09.338   357   388 D goldfish-address-space: claimShared: Ask to claim region [0x1f7774000 0x1f7f60000]
+01-09 19:14:09.341   357   388 D goldfish-address-space: claimShared: Ask to claim region [0x1facc0000 0x1fb4ac000]
+01-09 19:14:09.383  8776  8803 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+01-09 19:14:09.388  8776  8803 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+01-09 19:14:09.391  8776  8803 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+01-09 19:14:09.413  1355  1355 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+01-09 19:14:09.416  1355  1355 E HwDetectorWithState: a: 3
+01-09 19:14:09.445  8776  8776 D LifecycleMonitor: Lifecycle status change: com.example.android.dessertclicker.DiceRoller@6bc8417 in: PRE_ON_CREATE
+01-09 19:14:09.456  8776  8776 V MainActivity: Hello, world!
+01-09 19:14:09.457  8776  8776 V MainActivity: 15
+01-09 19:14:09.457  8776  8776 V MainActivity: 20
+01-09 19:14:09.457  8776  8776 V MainActivity: 30
+01-09 19:14:09.457  8776  8776 V MainActivity: 60
+01-09 19:14:09.490  8776  8776 W .dessertclicke: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+01-09 19:14:09.491  8776  8776 W .dessertclicke: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+01-09 19:14:09.594  8776  8776 D LifecycleMonitor: Lifecycle status change: com.example.android.dessertclicker.DiceRoller@6bc8417 in: CREATED
+01-09 19:14:09.598  8776  8776 D LifecycleMonitor: Lifecycle status change: com.example.android.dessertclicker.DiceRoller@6bc8417 in: STARTED
+01-09 19:14:09.600  8776  8776 D LifecycleMonitor: Lifecycle status change: com.example.android.dessertclicker.DiceRoller@6bc8417 in: RESUMED
+01-09 19:14:09.652  8776  8801 D HostConnection: createUnique: call
+01-09 19:14:09.656  8776  8801 D HostConnection: HostConnection::get() New Host Connection established 0xb4000072782587d0, tid 8801
+01-09 19:14:09.695  1578  1578 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=63, right=0, bottom=42}
+01-09 19:14:09.696  1578  1578 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=63, right=0, bottom=42}
+01-09 19:14:09.702  8776  8801 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+01-09 19:14:09.705   203   203 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+01-09 19:14:09.706  8776  8801 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+01-09 19:14:09.707  8776  8801 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+01-09 19:14:09.708  8776  8801 D EGL_emulation: eglCreateContext: 0xb400007278257450: maj 3 min 0 rcv 3
+01-09 19:14:09.710  8776  8801 D EGL_emulation: eglMakeCurrent: 0xb400007278257450: ver 3 0 (tinfo 0x74930ba080) (first time)
+01-09 19:14:09.720   203   203 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+01-09 19:14:09.720  8776  8801 I Gralloc4: mapper 4.x is not supported
+01-09 19:14:09.721  8776  8801 D HostConnection: createUnique: call
+01-09 19:14:09.722  8776  8801 D HostConnection: HostConnection::get() New Host Connection established 0xb400007278258110, tid 8801
+01-09 19:14:09.722  8776  8801 D goldfish-address-space: allocate: Ask for block of size 0x100
+01-09 19:14:09.722  8776  8801 D goldfish-address-space: allocate: ioctl allocate returned offset 0x1f3ff8000 size 0x8000
+01-09 19:14:09.724   203   203 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+01-09 19:14:09.724  8776  8801 W Gralloc4: allocator 4.x is not supported
+01-09 19:14:09.725   357   388 D goldfish-address-space: claimShared: Ask to claim region [0x1f47ec000 0x1f4fd8000]
+01-09 19:14:09.749  8776  8801 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+01-09 19:14:09.750   357   388 D goldfish-address-space: claimShared: Ask to claim region [0x1f4fd8000 0x1f57c4000]
+01-09 19:14:09.751   357   388 D goldfish-address-space: claimShared: Ask to claim region [0x1f57c4000 0x1f5fb0000]
+01-09 19:14:09.821   553   570 I ActivityTaskManager: Displayed com.example.android.dessertclicker/.DiceRoller: +558ms
+01-09 19:14:09.858  1283  1283 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3269
+01-09 19:14:09.860  1283  1283 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1947
+01-09 19:14:09.869  1283  1283 I DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():79 Notify device unlocked.
+01-09 19:14:09.906   357   388 D goldfish-address-space: claimShared: Ask to claim region [0x1f5fb0000 0x1f64c0000]
+01-09 19:14:09.954  8776  8776 W .dessertclicke: Accessing hidden field Landroid/app/Activity;->mResultCode:I (unsupported, reflection, allowed)
+01-09 19:14:09.955  8776  8776 W .dessertclicke: Accessing hidden field Landroid/app/Activity;->mResultData:Landroid/content/Intent; (unsupported, reflection, allowed)
+01-09 19:14:09.966  8776  8776 D LifecycleMonitor: Lifecycle status change: com.example.android.dessertclicker.DiceRoller@6bc8417 in: PAUSED
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:09.971   553  2638 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+01-09 19:14:10.007  1578  1578 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=63, right=0, bottom=42}
+01-09 19:14:10.007  1578  1578 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=63, right=0, bottom=42}
+01-09 19:14:10.010   357   388 D goldfish-address-space: claimShared: Ask to claim region [0x1f4000000 0x1f47ec000]
+01-09 19:14:10.015   357   388 D goldfish-address-space: claimShared: Ask to claim region [0x1f8d20000 0x1f950c000]
+01-09 19:14:10.018   357   388 D goldfish-address-space: claimShared: Ask to claim region [0x1f950c000 0x1f9cf8000]
+01-09 19:14:10.045   357   388 D goldfish-address-space: claimShared: Ask to claim region [0x1f8000000 0x1f87ec000]
+01-09 19:14:10.055   357   388 D goldfish-address-space: claimShared: Ask to claim region [0x1fd7c4000 0x1fdfb0000]
+01-09 19:14:10.057   357   388 D goldfish-address-space: claimShared: Ask to claim region [0x1fdfb0000 0x1fe79c000]
+01-09 19:14:10.058  1063  1103 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=
+01-09 19:14:10.060  1355  1355 I GsaVoiceInteractionSrv: Handling ACTION_START_HOTWORD
+01-09 19:14:10.063  1355  1355 I GsaVoiceInteractionSrv: disregardVoiceMatch: false
+01-09 19:14:10.065  1355  1355 I GsaVoiceInteractionSrv: Cannot start hotword, hotword has been explicitly disabled.
+01-09 19:14:10.092  8776  8797 I TestRunner: finished: addition_isCorrect(DiceRollerTest)

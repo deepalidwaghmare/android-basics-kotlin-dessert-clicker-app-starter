@@ -26,11 +26,11 @@ class DiceRoller: AppCompatActivity(){
         }
     }
 
-    fun logging() {
+    private fun logging() {
         Log.v(TAG, "Hello, world!")
     }
 
-    fun division() {
+    private fun division() {
         val numerator = 60
         var denominator = 4
         repeat(4) {
@@ -45,6 +45,7 @@ class DiceRoller: AppCompatActivity(){
         val dice = Dice(6)
         val diceRoll = dice.roll()
         val diceRoll2 = dice.roll()
+        val diceRoll3 = dice.roll()
 
         //Find Dice1 ImageView in Layout
         val diceImage = findViewById<ImageView>(R.id.imageView)
@@ -53,6 +54,8 @@ class DiceRoller: AppCompatActivity(){
         //Find Dice2 ImageView in Layout
         val diceImageSecond: ImageView = findViewById(R.id.imageView2)
         diceImageSecond.setImageResource(R.drawable.dice_2)
+
+        val diceImageThird:ImageView = findViewById(R.id.imageView3)
 
         //Determine which Drawable resource id is used based on diceRoll()
         val drawableResource = when(diceRoll){
@@ -77,11 +80,24 @@ class DiceRoller: AppCompatActivity(){
             else ->R.drawable.dice_6
         }
 
+        val drawableResource3 = when(diceRoll3){
+            1->R.drawable.dice_1
+            2->R.drawable.dice_2
+            3->R.drawable.dice_3
+            4->R.drawable.dice_4
+            5->R.drawable.dice_5
+            6->R.drawable.dice_6
+            else ->R.drawable.dice_6
+        }
+
         //Updating the Dice1 ImageView with correct Drawable
         diceImage.setImageResource(drawableResource)
 
         //Updating the Dice 2 ImageView with correct Drawable
         diceImageSecond.setImageResource(drawableResource2)
+
+        //Updating the Dice 3 ImageView with correct Drawable
+        diceImageThird.setImageResource(drawableResource3)
 
         // Update the content description for Dice1
         diceImage.contentDescription = diceRoll.toString()
