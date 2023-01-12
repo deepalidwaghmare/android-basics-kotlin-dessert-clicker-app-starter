@@ -29,12 +29,16 @@ public final class ActivityDiceRollerBinding implements ViewBinding {
   @NonNull
   public final ImageView imageView2;
 
+  @NonNull
+  public final ImageView imageView3;
+
   private ActivityDiceRollerBinding(@NonNull ConstraintLayout rootView, @NonNull Button button1,
-      @NonNull ImageView imageView, @NonNull ImageView imageView2) {
+      @NonNull ImageView imageView, @NonNull ImageView imageView2, @NonNull ImageView imageView3) {
     this.rootView = rootView;
     this.button1 = button1;
     this.imageView = imageView;
     this.imageView2 = imageView2;
+    this.imageView3 = imageView3;
   }
 
   @Override
@@ -82,8 +86,14 @@ public final class ActivityDiceRollerBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView3;
+      ImageView imageView3 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView3 == null) {
+        break missingId;
+      }
+
       return new ActivityDiceRollerBinding((ConstraintLayout) rootView, button1, imageView,
-          imageView2);
+          imageView2, imageView3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

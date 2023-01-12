@@ -11,7 +11,7 @@ class DiceRoller: AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         logging()
-        division()
+        //division()
         setContentView(R.layout.activity_dice_roller)
         rollDice()
         val rollButton: Button = findViewById(R.id.button1)
