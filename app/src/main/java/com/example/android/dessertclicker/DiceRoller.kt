@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 class DiceRoller: AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        logging()
+        //logging()
         //division()
         setContentView(R.layout.activity_dice_roller)
         rollDice()
